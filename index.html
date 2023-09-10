@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
 </head>
@@ -25,7 +25,15 @@
             </diulv>
         </div>
 
-        <div class="header"></div>
+        <div class="header">
+            <div class="search-bar">
+                <button class="image-button"><img src="./images/search-icon.png" alt="search-button" height="15px"></button>
+                <input type="text" class="type">
+            </div>
+            <div class="profile"></div>
+            <div class="profile-name"></div>
+            <div class="buttons"></div>
+        </div>
         <div class="main">
             <div class="articles">
                 <div class="card">Super cool project</div>
@@ -48,6 +56,7 @@
         </div>
 
     </div>
-    
+
+    <script src="script.js"></script>    
 </body>
 </html>
